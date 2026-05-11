@@ -1,0 +1,11 @@
+[artifact]
+type = "api-server"
+slug = "api-server"
+title = "Anthropic Reverse Proxy API"
+
+[server]
+port = 3000
+command = "tsx src/app.ts"
+
+[server.paths]
+paths = ["/api", "/v1"]
