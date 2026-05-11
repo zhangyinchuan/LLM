@@ -1,0 +1,11 @@
+[artifact]
+type = "react-vite"
+slug = "api-portal"
+title = "API Portal"
+
+[server]
+port = 5173
+command = "npm run dev"
+
+[server.paths]
+paths = ["/"]
